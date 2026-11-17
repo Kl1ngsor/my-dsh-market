@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "title": {
+    "zh": "我的插件索引",
+    "en": "My plugin index"
+  },
+  "description": {
+    "zh": "由我自行维护的 DeepSeek Harness 插件清单",
+    "en": "A DeepSeek Harness plugin list I maintain myself"
+  },
+  "metadata": {
+    "categories": {
+      "dev": {
+        "title": {
+          "zh": "开发工具",
+          "en": "Developer tools"
+        }
+      },
+      "ui": {
+        "title": {
+          "zh": "界面增强",
+          "en": "Interface"
+        }
+      },
+      "productivity": {
+        "title": {
+          "zh": "效率",
+          "en": "Productivity"
+        }
+      }
+    },
+    "labels": {
+      "experimental": {
+        "title": {
+          "zh": "实验性",
+          "en": "Experimental"
+        }
+      }
+    },
+    "sortKeys": {
+      "stars": {
+        "title": {
+          "zh": "热度",
+          "en": "Popularity"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@deepseek-ai/dsh-experimental-terminal-bundle",
+      "title": {
+        "zh": "可视终端",
+        "en": "Visible terminals"
+      },
+      "description": {
+        "zh": "让 Agent 在侧边栏可直接观看的终端里运行长时间命令。",
+        "en": "Let the agent run long-lived commands in terminals you can watch in the sidebar."
+      },
+      "author": "DeepSeek",
+      "metadata": {
+        "category": "dev",
+        "keywords": ["terminal", "pty", "shell"],
+        "labels": ["experimental"],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.3",
+          "publishTimestamp": 1763000000,
+          "source": { "type": "npm" },
+          "engines": { "dsh": "^0.2.2-rc.3" }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-session-search",
+      "title": {
+        "zh": "历史会话搜索",
+        "en": "Session search"
+      },
+      "description": {
+        "zh": "让 Agent 在当前工作区里搜索并阅读以前的会话。",
+        "en": "Give agents tools to search and read earlier sessions from the current workspace."
+      },
+      "author": "DeepSeek",
+      "metadata": {
+        "category": "productivity",
+        "keywords": ["session", "search"],
+        "labels": ["experimental"],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.3",
+          "publishTimestamp": 1763000000,
+          "source": { "type": "npm" },
+          "engines": { "dsh": "^0.2.2-rc.3" }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-inspector-profile",
+      "title": {
+        "zh": "会话检查器",
+        "en": "Session inspector"
+      },
+      "description": {
+        "zh": "查看原始 Session 日志与 Chat 节点结构。",
+        "en": "Raw Session logs and Chat node inspection."
+      },
+      "author": "DeepSeek",
+      "metadata": {
+        "category": "dev",
+        "keywords": ["debug", "trace"],
+        "labels": ["experimental"],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.2.2-rc.3",
+          "publishTimestamp": 1763000000,
+          "source": { "type": "npm" },
+          "engines": { "dsh": "^0.2.2-rc.3" }
+        }
+      ]
+    }
+  ]
+}
